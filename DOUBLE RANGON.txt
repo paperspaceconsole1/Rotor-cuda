@@ -1,0 +1,43 @@
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 8192,512 -m address --coin BTC --range 21eb851eb851ec000:2f0a3d70a3d70a000 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 8192,512 -m address --coin BTC --range 3147ae147ae148000:3eb851eb851eb8000 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 20480,512 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1
+
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 10240,512 -m addresses -b --coin BTC --range 1a765a8aa43b31089f667d87fbfc8e83ba3739cc8a13540777fa4bd19a06c181:fe9625fda777197ce73551bcd8e162ceca19167575760d3cc2bced4bf2a213dc -i Rich_out_sorted.bin -o Found.txt -r 1
+
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 16404,512 -m addresses -b --coin BTC --range 1a765a8aa43b31089f667d87fbfc8e83ba3739cc8a13540777fa4bd19a06c181:fe9625fda777197ce73551bcd8e162ceca19167575760d3cc2bced4bf2a213dc -i Rich_out_sorted.bin -o Found.txt -r 1
+
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 48148,512 -m addresses -b --coin BTC --range 1a765a8aa43b31089f667d87fbfc8e83ba3739cc8a13540777fa4bd19a06c181:fe9625fda777197ce73551bcd8e162ceca19167575760d3cc2bced4bf2a213dc -i Rich_out_sorted.bin -o Found.txt -r 1
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 24064,512 -m addresses -b --coin BTC --range 1a765a8aa43b31089f667d87fbfc8e83ba3739cc8a13540777fa4bd19a06c181:fe9625fda777197ce73551bcd8e162ceca19167575760d3cc2bced4bf2a213dc -i Rich_out_sorted.bin -o Found.txt -r 1
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 20480,512 -m addresses -b --coin BTC --range 1a765a8aa43b31089f667d87fbfc8e83ba3739cc8a13540777fa4bd19a06c181:fe9625fda777197ce73551bcd8e162ceca19167575760d3cc2bced4bf2a213dc -i Rich_out_sorted.bin -o Found.txt -r 1
+
+!cd /content/drive/MyDrive/Keyhunt-5/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 21eb851eb851ec000 -e 2f0a3d70a3d70a000 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd /content/drive/MyDrive/Keyhunt-5/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 21eb851eb851ec000 -e 3eb851eb851eb8000 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd /content/drive/MyDrive/Keyhunt-5/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 3147ae147ae148000 -e 3eb851eb851eb8000 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 48148,512 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1
+
+!cd /content/drive/MyDrive/Keyhunt-5/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 101201011410110111 -e 1feeffde9aeeffedbf -a 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt
+
+!cd /content/drive/MyDrive/Keyhunt-5/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 48148,512 -s 101201011410110111 -e 1feeffde9aeeffedbf -a 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt
+
+!cd /content/drive/MyDrive/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 21eb851eb851ec000 -e 3eb851eb851eb8000 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+
+354df000000000000:358aeffffffffffff sudo apt install iostream && sudo apt install fstream && sudo apt install chrono && sudo apt install random && sudo apt install thread && pip3 install numba
+https://courses.nvidia.com/courses/course-v1:DLI+S-ES-01+V1/course/ pls show me a test result , am sure 100 % that its not against the rules if you just show me the first 9 lines of what the result of this commandline could do in your terminal :
+3147ae147ae148000:3eb851eb851eb8000 g++ gcc python code.py -c 512 -z 128 . block size ai detected 256  pls show me a test result , am sure 100 % that its not against the rules if you just show me the first 9 lines of what the result of this script could do in your terminal : 
+
+!cd /content/drive/MyDrive/Linux && ./Rotor -g --gpui 0 --gpux 8192,512 -m address --coin BTC --range 354df000000000000:358aeffffffffffff 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 8192,512 -m address --coin BTC --range 354df000000000000:358aeffffffffffff 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt -r 1
+
+!cd /content/drive/MyDrive/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 354df000000000000 -e 358aeffffffffffff -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd /content/drive/MyDrive/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 20480,512 -s 3147ae147ae148000 -e 3eb851eb851eb8000 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd /content/drive/MyDrive/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 48148,512 -s 354df000000000000 -e 358aeffffffffffff -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+!cd /content/drive/MyDrive/KeyHunt-5/KeyHunt-Cuda-2 && ./KeyHunt -g --gpui 0 --gpux 48148,512 -s 3147ae147ae148000 -e 3eb851eb851eb8000 -a 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o Found.txt
+https://github.com/bitcoinben1/rotor in Nvidia learinig institue
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 256,256 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 8192,512 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 10240,512 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 20480,512 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1
+!cd /content/drive/MyDrive/temp/Rotor-Cuda/Linux && ./Rotor -g --gpui 0 --gpux 48148,512 -m address --coin BTC --range 101201011410110111:1feeffde9aeeffedbf 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG -o Found.txt -r 1

@@ -1,0 +1,65 @@
+from multiprocessing import Pool, cpu_count
+if __name__ == '__main__':
+    processes = cpu_count()
+    print ('utilizing %d cores\n' % processes)
+    pool = Pool(processes)
+    pool.map( , range(processes))
+from multiprocessing import Pool, cpu_count
+if __name__ == '__main__':
+    processes = cpu_count()
+    print(f"Utilizing {processes} cores")
+    pool = Pool(processes=processes)
+    pool.map( , range(processes))
+
+Abhishek' Reløaded
+​divide the main function code in cpu count create thread() then join()
+
+script
+
+sudo apt install gcc -y
+sudo apt install g++ -y
+pip3 install gcc
+pip3 install g++
+
+g++ bitcoin.cpp -o bitcoin
+
+Make sure you have the necessary libraries installed on your system. 
+The code relies on the <iostream>, <random>, <chrono>, <fstream>, <string>, <vector>, and "bitcoin.h" headers
+
+sudo apt install iostream -y
+sudo apt install random -y
+sudo apt install chrono -y
+sudo apt install fstream -y
+sudo apt install string -y
+sudo apt install vector -y
+sudo apt install bitcoin.h -y
+
+for extenstiion : g++ -shared -o bitcoin.so -fPIC bitcoin.cpp
+
+-----
+import ctypes
+
+bitcoin = ctypes.CDLL('./bitcoin.so')
+
+def generate_address():
+    bitcoin.generate_address.restype = ctypes.c_char_p
+    result = bitcoin.generate_address()
+    return result.decode()
+
+def check_address(process_index):
+    bitcoin.check_address(ctypes.c_int(process_index))
+
+def main():
+    bitcoin.main()
+
+if __name__ == '__main__':
+    main()
+
+-------
+import bitcoin
+
+address = bitcoin.generate_address()
+print(address)
+
+bitcoin.check_address(0)
+
